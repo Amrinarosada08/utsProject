@@ -1,0 +1,191 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 40px 0;
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+.poster {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.motivation-img {
+    border: 5px solid white;
+    width: 500px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.poster h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.poster p {
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* About Section Styles */
+.container h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container p {
+    text-align: center;
+    color: #555;
+}
+
+/* Services Section Styles */
+.container ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.container ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Added Float Styles */
+.float-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 20px;
+}
