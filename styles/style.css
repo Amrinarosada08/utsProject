@@ -8,18 +8,16 @@
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: yellow; /* Warna kuning */
+    background-color: #f8f9fa;
     color: #333;
     line-height: 1.6;
     margin: 0;
 }
 
-/* Container Styles */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: yellow; /* Warna kuning */
 }
 
 /* Header Styles */
